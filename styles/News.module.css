@@ -1,0 +1,21 @@
+.paginator{
+  margin: .9rem;  
+  display: flex;
+  justify-content: center;
+}
+.paginator div {
+    margin-bottom:  1.5rem;
+    margin-right:  1rem;
+    margin-left:  1rem;
+
+}
+
+.paginator .disabled {
+    cursor: not-allowed;
+    color: rgb(100, 100, 100);
+}
+
+.paginator .active {
+    cursor: pointer;
+    font-weight: bold;
+}

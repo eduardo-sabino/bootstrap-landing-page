@@ -1,0 +1,54 @@
+.imgContainer {
+  width: 100%;
+  height: 13rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.h2, .h1 {
+  margin: 0.7rem 0;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.5rem;
+  cursor: pointer;
+}
+.p {
+  color: rgb(75, 75, 75);
+  cursor: pointer;
+}
+
+@media screen and (min-width: 992px) {
+  .main {
+    display: flex;
+    margin: 1rem 0;
+    flex-direction: row;
+  }
+  .main .imgContainer {
+    width: 90%;
+    height: 16rem;
+  }
+  .main .h2 {
+    margin-top: 0;
+  }
+  .mainContent {
+    margin-left: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .main .imgContainer {
+    width: 100%;
+    height: 19rem;
+  }
+  .h1 {
+    margin: 0.7rem 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 2rem;
+    cursor: pointer;
+  }
+}

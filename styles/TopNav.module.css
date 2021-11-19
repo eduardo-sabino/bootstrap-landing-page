@@ -1,0 +1,13 @@
+.span{
+    color: rgb(255, 217, 0);
+    font-weight: bold;
+}
+.ml{
+    margin-left: 2rem;
+}
+.container{
+    padding: 0 1.5rem;
+}
+.bg{
+    background-color: rgb(43, 44, 139);
+}
