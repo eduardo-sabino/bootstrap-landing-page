@@ -1,7 +1,7 @@
 
 # Web News
 
-This is a project I worked on, in order to practise  UI/UX Design, CSS, and Bootstrap fundamentals. I also used an API called **News API**.
+This is a project I worked on to practise UI/UX Design, CSS, and Bootstrap fundamentals. I also used an API called **News API**.
 
 ## how to use:
     npm install
